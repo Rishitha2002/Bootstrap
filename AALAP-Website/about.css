@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(212, 206, 206);
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+p {
+    margin-bottom: 0;
+}
+span {
+    border: 3px solid white;
+    padding: 5px 20px 5px 20px;
+}
+h2{
+    font-weight: 800;
+}
+h5 {
+    font-weight: 100;
+    margin: 0;
+}
+.footer {
+    background-color: #bccbcc;
+    margin: 0px auto;
+    padding: 20px 0px; 
+}
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px; 
+}
+.tinted-image {
+    background-image: 
+       linear-gradient(
+        rgba(255, 0, 0, 0.623),
+        rgba(255, 0, 0, 0.623) 
+      ),
+      url(Assets/website_bg.jpg);
+    color: white;
+    height: 400px;
+    position: relative;
+  }
+.text-tinted-image {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.blue-bg {
+    background-color:#75c7ce ;
+    color: white;
+    height: 400px;
+    position: relative;
+}
+.text-blue-bg {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.logo {
+    border: 3px solid rgb(189, 7, 7);
+}
+.about-col {
+    margin: 0;
+}
+.navbar{ 
+    margin: 0;
+}
+.navbar-content {
+    padding: 15px;
+}
+.container-1 {
+    box-shadow: 2px 3px 12px 1px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 2px 3px 12px 1px rgba(0,0,0,0.45);
+    -moz-box-shadow: 2px 3px 12px 1px rgba(0,0,0,0.45);
+}
+.nav-items-content{
+    color: rgb(41, 40, 40);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: small;
+}
+.nav-items-register {
+    color: rgb(189, 7, 7);
+    border: 0.5px solid rgb(189, 101, 101);
+    margin-left: 20px;
+}
+.raising-bars {
+    color: rgb(65, 64, 64); 
+    font-weight: 500;
+}
+.para-home {
+    color: rgb(65, 64, 64); 
+    font-weight: 300;
+}
